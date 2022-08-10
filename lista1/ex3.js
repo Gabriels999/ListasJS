@@ -1,7 +1,19 @@
-function mostra_media_aluno(n1, n2, n3, n4) {
-  const total = n1 + n2 + n3 + n4;
-  const media = total / 4;
+const notas = [1, 6, 5, 10];
+
+let somaNotas = 0;
+for (valor of notas) {
+  somaNotas += valor;
+}
+const mediaAluno = somaNotas / notas.length;
+console.log(mediaAluno);
+
+function mostraMediaAluno(arr) {
+  let total = 0;
+  for (valor of arr) {
+    total += valor;
+  }
+  const media = total / arr.length;
   return console.log(media);
 }
 
-mostra_media_aluno(1, 6, 5, 10);
+mostraMediaAluno(notas);

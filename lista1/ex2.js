@@ -1,6 +1,10 @@
-function converte_m_para_cm(metros) {
+const metros = 1;
+let cm = metros * 100;
+console.log(`${metros} metros em centímetros = ${cm}`);
+
+function converteParaCm(metros) {
   let cm = metros * 100;
   return console.log(cm);
 }
 
-converte_m_para_cm(5);
+converteParaCm(1);
