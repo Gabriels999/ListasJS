@@ -1,5 +1,6 @@
 const notas = [1, 6, 5, 10];
 
+// Versão com variáveis
 let somaNotas = 0;
 for (valor of notas) {
   somaNotas += valor;
@@ -7,6 +8,7 @@ for (valor of notas) {
 const mediaAluno = somaNotas / notas.length;
 console.log(mediaAluno);
 
+// Versão com funções
 function mostraMediaAluno(arr) {
   let total = 0;
   for (valor of arr) {
