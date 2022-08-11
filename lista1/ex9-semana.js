@@ -1,5 +1,5 @@
-const numero = 7;
-if (numero > 7 || numero < 1) {
+const numero = 1;
+if (1 > numero > 7) {
   console.log("Número inválido.");
 } else {
   switch (numero) {

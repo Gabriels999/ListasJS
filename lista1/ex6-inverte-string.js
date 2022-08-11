@@ -6,13 +6,3 @@ for (i = texto.length - 1; i >= 0; i--) {
 }
 console.log(texto);
 console.log(textoInvertido);
-
-// Versão com funções
-function inverteString(str) {
-  let strInvertida = "";
-  for (i = str.length - 1; i >= 0; i--) {
-    strInvertida += str[i];
-  }
-  console.log(strInvertida);
-}
-inverteString(texto);

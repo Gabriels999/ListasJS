@@ -6,7 +6,8 @@ console.log(`${metros} metros em centímetros = ${cm}`);
 // Versão com funções
 function converteParaCm(metros) {
   let cm = metros * 100;
-  return console.log(cm);
+  return cm;
 }
 
-converteParaCm(1);
+resultado = converteParaCm(1);
+console.log(resultado);
