@@ -1,6 +1,6 @@
 // Versão com variáveis
-temperaturaCelsius = 15;
-temperaturaFaren = temperaturaCelsius * 1.8 + 32;
+const temperaturaCelsius = 15;
+const temperaturaFaren = temperaturaCelsius * 1.8 + 32;
 console.log(temperaturaFaren);
 
 // Versão com funções
