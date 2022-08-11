@@ -1,4 +1,4 @@
-const entrada = "zebra";
+const entrada = "Zebra";
 let mensagem = [];
 let encriptada = "";
 const chave = 1;
